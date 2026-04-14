@@ -4,7 +4,7 @@
 This project implements a comprehensive machine learning pipeline for detecting anomalous network traffic. It processes raw network data, handles class imbalances, and trains multiple supervised algorithms alongside K-Means clustering to classify network events accurately. 
 
 ## Pipeline Architecture
-1. **Data Loading & Setup**: Integrates directly with Google Drive to load network logs seamlessly in a cloud environment.
+1. **Data Loading & Setup**: Integrates directly with Google Drive.
 2. **Exploratory Data Analysis (EDA)**: Generates dynamic visualizations including target class distributions, feature boxplots, and scatter plots to analyze network behavior.
 3. **Robust Preprocessing**: 
    - Strict 70/15/15 Data Split (Train/Validation/Test).
