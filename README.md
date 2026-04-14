@@ -31,7 +31,7 @@ The project is built to run in a Google Colab environment. The required librarie
 ## Instructions to Run the Code
 
 ### Step 1: Prepare the Dataset
-1. Download the Network Anomaly Dataset from Kaggle.
+1. Download the [Network Anomaly Dataset](https://www.kaggle.com/datasets/amineipad/network-anoamly-dataset/data) from Kaggle.
 2. Ensure the dataset is in CSV format.
 3. Upload the CSV file to your Google Drive.
 
