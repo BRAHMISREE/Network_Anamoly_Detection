@@ -33,18 +33,17 @@ The project is built to run in a Google Colab environment. The required librarie
 ### Step 1: Prepare the Dataset
 1. Download the Network Anomaly Dataset from Kaggle.
 2. Ensure the dataset is in CSV format.
-3. Upload the CSV file to your Google Drive. Place it in a folder named `CI` within your root `MyDrive` directory. The expected path is `/content/drive/MyDrive/CI/`.
+3. Upload the CSV file to your Google Drive.
 
 ### Step 2: Setup Google Colab
-1. Upload the provided Jupyter Notebook (`.ipynb` file) to Google Colab.
-2. Ensure your Colab runtime is utilizing a standard Python 3 environment.
+1. Ensure your Colab runtime is utilizing a standard Python 3 environment.
 
 ### Step 3: Execution
 1. Run the first cell to install all required dependencies.
 2. Run the data loading cell. A prompt will appear asking for permission to mount your Google Drive. Accept the prompt and allow Colab to connect to your Drive.
-3. Once the Drive is mounted, the script will automatically locate the CSV file in the `CI` folder.
+3. Once the Drive is mounted, the script will automatically locate the CSV file in the folder.
 4. Execute the remaining cells sequentially. 
 5. During the Supervised Modeling step, allow several minutes for the 5-Fold Cross Validation and Hyperparameter Tuning processes to complete.
 
 ## Results Output
-Upon completion, the notebook will output a detailed comparison table of all 11 models based on their Validation and Cross-Validation F1-Scores. The final cell will generate a high-resolution evaluation dashboard assessing the winning model's real-world viability on the unseen test data.
+Upon completion, the notebook will output a detailed comparison table of all 11 models based on their Validation and Cross-Validation F1-Scores.
