@@ -1,7 +1,7 @@
-# Network Anomaly Detection Pipeline
+# Network Anomaly Detection
 
 ## Project Overview
-This project implements a comprehensive machine learning pipeline for detecting anomalous network traffic. It processes raw network data, handles severe class imbalances, and trains multiple supervised algorithms alongside K-Means clustering to classify network events accurately. The pipeline is designed for scalability and high theoretical rigor, ensuring proper data separation and rigorous cross-validation.
+This project implements a comprehensive machine learning pipeline for detecting anomalous network traffic. It processes raw network data, handles class imbalances, and trains multiple supervised algorithms alongside K-Means clustering to classify network events accurately. 
 
 ## Pipeline Architecture
 1. **Data Loading & Setup**: Integrates directly with Google Drive to load network logs seamlessly in a cloud environment.
