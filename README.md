@@ -8,10 +8,6 @@ This project implements a comprehensive machine learning pipeline for detecting 
 2. **Exploratory Data Analysis (EDA)**: Generates dynamic visualizations including target class distributions, feature boxplots, and scatter plots to analyze network behavior.
 3. **Robust Preprocessing**: 
    - Strict 70/15/15 Data Split (Train/Validation/Test).
-   - Target encoding for binary classification.
-   - One-Hot Encoding for categorical features to prevent mathematical hierarchies.
-   - Standard scaling for continuous variables.
-   - SMOTE (Synthetic Minority Over-sampling Technique) applied strictly within the cross-validation folds to handle class imbalance without data leakage.
 4. **Supervised Learning**: Evaluates 11 distinct algorithms (including Random Forest, XGBoost, LightGBM, and Support Vector Machines) using 5-Fold Stratified Cross-Validation optimized for the F1-weighted metric.
 5. **Hyperparameter Tuning**: Automatically applies RandomizedSearchCV to the top-performing baseline model to maximize predictive accuracy.
 6. **Unsupervised Learning**: Utilizes K-Means clustering for baseline anomaly discovery and topological reality checks.
